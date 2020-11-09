@@ -6,4 +6,4 @@ Apontamentos tirados durante a minha licenciatura em Engenharia Informática no 
 
 ![ISEC Logo](https://moodle.isec.pt/moodle/pluginfile.php/1/theme_adaptable/logo/1581343866/logo.png)
 
-**[Instruções para uso offline](./README.md)**
+**[Instruções para uso offline](./Instructions.md)**
