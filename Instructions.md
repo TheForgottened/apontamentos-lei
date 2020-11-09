@@ -11,6 +11,6 @@
 
 ### **Exemplo:**
 
-![Exemplo](./Exemplo.PNG)
+![Exemplo](Exemplo.PNG)
 
 **[Página Inicial](./index.md)**
