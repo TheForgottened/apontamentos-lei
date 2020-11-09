@@ -15,3 +15,5 @@ To-do list:
 3. Instalar a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no VS Code
 4. Abrir os ficheiros no VS Code e ativar uma preview lateral do ficheiro à escolha
     - Para ativar a preview lateral é fazer **Ctrl + Shift + P** e procurar por preview, se tudo estiver feito corretamente tem de aparecer uma opção **Markdown: Open Preview to the Side**
+
+![ISEC Logo](https://moodle.isec.pt/moodle/pluginfile.php/1/theme_adaptable/logo/1581343866/logo.png)
