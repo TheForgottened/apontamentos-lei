@@ -4,4 +4,6 @@
     "markdown.styles": [
         ".\\.vscode\\dark.css"
     ],
+    "plantuml.server": "https://www.plantuml.com/plantuml",
+    "plantuml.render": "PlantUMLServer"
 }
