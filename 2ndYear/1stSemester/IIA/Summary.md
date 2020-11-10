@@ -243,3 +243,5 @@ end note
 ```
 
 Para este método o custo real (uniforme) é tido em conta. Aqui expandem-se todos os ramos e escolhe-se a situação onde custa menos chega ao objetivo.
+
+**[Página Inicial](../../../index.md) | [Página Anterior](./Main.md)**
