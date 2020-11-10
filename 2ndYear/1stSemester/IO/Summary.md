@@ -190,4 +190,4 @@ De um modo geral o método da 2 fases é considerado mais fácil e mais intuitiv
 - Valor de $z_{j} - c_{j}$ nulo sendo $x_{j}$ uma variável não básica
     - Este problema tem mais do que uma solução ótima
 
-**[Página Inicial](../../../index.md) | [Página Anterior](../1stSemester.md)**
+**[Página Inicial](../../../index.md) | [Página Anterior](./Main.md)**
