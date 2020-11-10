@@ -5,7 +5,8 @@ Apontamentos tirados durante a minha licenciatura em Engenharia Informática no 
 Podem abrir os apontamentos [aqui](https://theforgottened.github.io/apontamentos_lei/).
 
 To-do list:
-- [ ] Adicionar suporte para o GitHub Pages
+- [x] Adicionar suporte para o GitHub Pages
+- [ ] Arranjar um fix para o favicon
 
 ## Como usar os apontamentos offline
 
