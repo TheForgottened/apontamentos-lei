@@ -1,6 +1,6 @@
 # Introdução à Inteligência Artificial
 
-**[Resumos (WIP)](Summary.md) | [Material de Apoio](https://github.com/TheForgottened/introducao_inteligencia_artificial)**
+**[Resumos](Summary.md) | [Material de Apoio](https://github.com/TheForgottened/introducao_inteligencia_artificial)**
 
 A repo de material de apoio vai manter-se privada até ao final do semestre.
 
