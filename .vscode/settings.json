@@ -1,6 +1,7 @@
 {
     "markdown.extension.print.theme": "dark",
     "markdown.extension.print.onFileSave": true,
+    "markdown.extension.print.absoluteImgPath": false,
     "markdown.styles": [
         ".\\.vscode\\dark.css"
     ],
