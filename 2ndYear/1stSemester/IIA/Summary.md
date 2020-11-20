@@ -2,6 +2,18 @@
 
 ### **Métodos de Pesquisa**
 
+**Pesquisa não Informada:**
+- Profundidade
+- Largura
+- Uniforme
+
+**Pesquisa Informada:**
+- Sôfrega: h
+- A* = f = g + h
+
+Deve-se definir uma heuristica que seja admissível, ou seja, menor ou igual ao custo real.
+Quanto melhor o h, melhor o desempenho do algoritmo.
+
 ```plantuml
 @startuml
 skinparam shadowing false
