@@ -1,6 +1,6 @@
 # Tecnologias WEB
 
-**[Resumos (WIP)](#) | [Material de Apoio (WIP)](#)**
+**[Resumos (WIP)](#) | [Material de Apoio](https://github.com/TheForgottened/tecnologias_web)**
 
 ### **Trabalhos práticos:**
 
