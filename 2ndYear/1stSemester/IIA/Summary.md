@@ -1,6 +1,6 @@
 # Introdução à Inteligência Artificial
 
-### **Métodos de Pesquisa**
+## **Métodos de Pesquisa**
 
 **Pesquisa não Informada:**
 - Profundidade
@@ -57,7 +57,7 @@ O objetivo é encontrar o caminho de A para G.
 
 ---
 
-#### **Método de Profundidade:**
+### **Método de Profundidade:**
 
 ```plantuml
 @startuml
@@ -96,7 +96,7 @@ Para este método o custo não conta. Aqui expandimos sempre o ramo mais à esqu
 
 ---
 
-#### **Método de Largura:**
+### **Método de Largura:**
 
 ```plantuml
 @startuml
@@ -149,7 +149,7 @@ Para este método o custo não conta. Aqui abrimos sempre todos os ramos possív
 
 ---
 
-#### **Método da Sôfrega:**
+### **Método da Sôfrega:**
 
 Seja h(A) = 5, h(B) = 4, h(C) = 1, h(H) = 1, h(G) = 0.
 
@@ -196,7 +196,7 @@ Para este método o custo esperado (sôfrega) é tido em conta. Aqui expande-se 
 
 ---
 
-#### **Método do Custo Uniforme:**
+### **Método do Custo Uniforme:**
 
 ```plantuml
 @startuml
