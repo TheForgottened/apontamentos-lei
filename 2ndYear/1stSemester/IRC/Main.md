@@ -1,6 +1,6 @@
 # Introdução às Redes de Comunicação
 
-**[Resumos (WIP)](#) | [Material de Apoio](https://github.com/TheForgottened/introducao_redes_comunicacao)**
+**[Resumos](Summary.md) | [Material de Apoio](https://github.com/TheForgottened/introducao_redes_comunicacao)**
 
 A repo de material de apoio vai manter-se privada até ao final do semestre.
 

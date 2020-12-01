@@ -31,10 +31,59 @@ html { background: #1E1E1E; } body { background: #1E1E1E; color: #d4d4d4; } a { 
     </head>
     <body class="vscode-body">
         <h1 id="introdução-às-redes-de-comunicação">Introdução às Redes de Comunicação</h1>
-<p><strong><a href="Summary.html">Resumos</a> | <a href="https://github.com/TheForgottened/introducao_redes_comunicacao">Material de Apoio</a></strong></p>
-<p>A repo de material de apoio vai manter-se privada até ao final do semestre.</p>
-<p><img src="https://moodle.isec.pt/moodle/pluginfile.php/1/theme_adaptable/logo/1581343866/logo.png" alt="ISEC Logo"></p>
-<p><strong><a href="../../../index.html">Página Inicial</a> | <a href="../1stSemester.html">Página Anterior</a></strong></p>
+<h2 id="resumo-funções-udp"><strong>Resumo Funções UDP</strong></h2>
+<p><strong>Endereço IP para Broadcast:</strong></p>
+<pre><code class="language-c"><div><span class="hljs-comment">// 255.255.255.255</span>
+serv_addr.sin_addr.s_addr = inet_addr(<span class="hljs-string">&quot;255.255.255.255&quot;</span>);
+</div></code></pre>
+<p><strong>Ativar o envio para toda a gente:</strong></p>
+<pre><code class="language-c"><div>setsockopt(sockfd, SOL_SOCKET, SO_BROADCAST (SO_RCVTIMEO), (<span class="hljs-keyword">char</span> *)&amp;opt, <span class="hljs-keyword">sizeof</span>(opt));
+</div></code></pre>
+<p><strong>Iniciar winsocks:</strong></p>
+<pre><code class="language-c"><div>WSAStartup(MAKEWORD(<span class="hljs-number">2</span>,<span class="hljs-number">2</span>), &amp;wsadata);
+</div></code></pre>
+<p><strong>Criar socket:</strong></p>
+<pre><code class="language-c"><div>SOCKET(PF_INET, SOCK_DGRAM, <span class="hljs-number">0</span>);
+<span class="hljs-comment">// Erro -&gt; INVALID_SOCKET</span>
+</div></code></pre>
+<p><strong>Associar socket ao endereço de escuta (recebe datagramas de qualquer interface na porta pretendida):</strong></p>
+<pre><code class="language-c"><div><span class="hljs-built_in">memset</span>((<span class="hljs-keyword">char</span>*)&amp;serv_addr, <span class="hljs-number">0</span>, <span class="hljs-keyword">sizeof</span>(serv_addr));
+serv_addr.sin_family = AF_INET;
+serv_addr.sin_addr.s_addr = htonl(...); <span class="hljs-comment">//inet_addr(...) //string</span>
+serv_addr.sin_port = htons(...); <span class="hljs-comment">//int</span>
+</div></code></pre>
+<p><strong>Definir timeout:</strong></p>
+<pre><code class="language-c"><div><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">timeval</span> <span class="hljs-title">timeout</span>;</span>
+timeout.tv_sec = TIMEOUT;
+timeout.tv_usec = <span class="hljs-number">0</span>;
+</div></code></pre>
+<p><strong>Enviar datagramas:</strong></p>
+<pre><code class="language-c"><div><span class="hljs-comment">// enviar -&gt; socket, valor a enviar(smp fazer a conversao), tamanho do var a enviar, para onde enviar, tamanho</span>
+sendto(sockfd, (<span class="hljs-keyword">char</span>*)&amp;sentValue, <span class="hljs-keyword">sizeof</span>(sentValuue), (struct sockaddr*)&amp;serv_addr, <span class="hljs-keyword">sizeof</span>(serv_addr))
+<span class="hljs-comment">// Erro -&gt; SOCKET_ERROR</span>
+</div></code></pre>
+<p><strong>Receber datagramas:</strong></p>
+<pre><code class="language-c"><div><span class="hljs-comment">//receber -&gt; socket, valor a enviar(smp fazer a conversao), tamanho do var a enviar, para onde enviar, tamanho</span>
+nbytes = recvfrom(sockfd, receber, <span class="hljs-keyword">sizeof</span>(response), <span class="hljs-number">0</span>, (struct sockaddr *)&amp;serv_addr, &amp;size);
+<span class="hljs-comment">// Erro -&gt; SOCKET_ERROR</span>
+</div></code></pre>
+<p><strong>Ver timeout:</strong></p>
+<pre><code class="language-c"><div>WSAGetLastError() == WSAETIMEDOUT;
+</div></code></pre>
+<p><strong>Terminar uma string:</strong></p>
+<pre><code class="language-c"><div>response[nbytes] = <span class="hljs-string">&#x27;\0&#x27;</span>;
+</div></code></pre>
+<p><strong>Fechar socket:</strong></p>
+<pre><code class="language-c"><div>closesocket(sockfd);
+</div></code></pre>
+<p><strong>Por o valor total na variável response:</strong></p>
+<pre><code class="language-c"><div><span class="hljs-built_in">sprintf</span>(response, <span class="hljs-string">&quot;Sum of values: %lf&quot;</span>, total);
+sprintf_s(response, <span class="hljs-keyword">sizeof</span>(response), <span class="hljs-string">&quot;Sum of values: %lf&quot;</span>, total);
+</div></code></pre>
+<p><strong>Verificar se a mensagem recebida foi enviada pelos servidor e não um impostor:</strong></p>
+<pre><code class="language-c"><div><span class="hljs-keyword">if</span> (<span class="hljs-built_in">strcmp</span>(inet_ntoa(addr.sin_addr), inet_ntoa(serv_addr.sin_addr)) &amp;&amp; atoi(itoa(addr.sin_port==serv_addr.sin_port)))
+</div></code></pre>
+<p><strong><a href="../../../index.html">Página Inicial</a> | <a href="./Main.html">Página Anterior</a></strong></p>
 
     </body>
     </html>
