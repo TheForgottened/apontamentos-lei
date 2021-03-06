@@ -2,7 +2,7 @@
 
 Apontamentos tirados durante a minha licenciatura em Engenharia Informática no ISEC.
 
-Podem abrir os apontamentos [aqui](https://theforgottened.github.io/apontamentos_lei/).
+Podem abrir os apontamentos [aqui](https://theforgottened.github.io/apontamentos-lei/).
 
 To-do list:
 - [x] Adicionar suporte para o GitHub Pages
