@@ -22,7 +22,6 @@
 
 html {
     background: var(--background);
-    font-family: Monaco;
 }
 
 body {
@@ -32,10 +31,4 @@ body {
 
 a {
     color: var(--cyan);
-}
-
-/* Custom Font */
-@font-face {
-    font-family: Monaco, monospace;
-    src: url(monaco.ttf);
 }
