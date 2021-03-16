@@ -2,16 +2,16 @@
 @startuml
 skinparam shadowing false
 skinparam handwritten flase
-skinparam backgroundColor #1E1E1E
-skinparam DefaultFontColor #d4d4d4
+skinparam backgroundColor #282a36
+skinparam DefaultFontColor #f8f8f2
 
 skinparam defaultFontName sans-serif
 skinparam classFontSize 14
 
 skinparam usecase {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
-    ArrowColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
+    ArrowColor #f8f8f2
 }
 
 together {
@@ -43,16 +43,16 @@ H -- G: 1
 @startuml
 skinparam shadowing false
 skinparam handwritten flase
-skinparam backgroundColor #1E1E1E
-skinparam DefaultFontColor #d4d4d4
+skinparam backgroundColor #282a36
+skinparam DefaultFontColor #f8f8f2
 
 skinparam defaultFontName sans-serif
 skinparam classFontSize 14
 
 skinparam usecase {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
-    ArrowColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
+    ArrowColor #f8f8f2
 }
 
 (A) as A

@@ -17,16 +17,16 @@ Quanto melhor o h, melhor o desempenho do algoritmo.
 ```plantuml
 @startuml
 skinparam shadowing false
-skinparam backgroundColor #1E1E1E
-skinparam DefaultFontColor #d4d4d4
+skinparam backgroundColor #282a36
+skinparam DefaultFontColor #f8f8f2
 
 skinparam defaultFontName sans-serif
 skinparam classFontSize 14
 
 skinparam usecase {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
-    ArrowColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
+    ArrowColor #f8f8f2
 }
 
 together {
@@ -62,16 +62,16 @@ O objetivo é encontrar o caminho de A para G.
 ```plantuml
 @startuml
 skinparam shadowing false
-skinparam backgroundColor #1E1E1E
-skinparam DefaultFontColor #d4d4d4
+skinparam backgroundColor #282a36
+skinparam DefaultFontColor #f8f8f2
 
 skinparam defaultFontName sans-serif
 skinparam classFontSize 14
 
 skinparam usecase {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
-    ArrowColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
+    ArrowColor #f8f8f2
 }
 
 (A) as A
@@ -101,21 +101,21 @@ Para este método o custo não conta. Aqui expandimos sempre o ramo mais à esqu
 ```plantuml
 @startuml
 skinparam shadowing false
-skinparam backgroundColor #1E1E1E
-skinparam DefaultFontColor #d4d4d4
+skinparam backgroundColor #282a36
+skinparam DefaultFontColor #f8f8f2
 
 skinparam defaultFontName sans-serif
 skinparam classFontSize 14
 
 skinparam usecase {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
-    ArrowColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
+    ArrowColor #f8f8f2
 }
 
 skinparam note {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
 }
 
 (A) as A
@@ -156,21 +156,21 @@ Seja h(A) = 5, h(B) = 4, h(C) = 1, h(H) = 1, h(G) = 0.
 ```plantuml
 @startuml
 skinparam shadowing false
-skinparam backgroundColor #1E1E1E
-skinparam DefaultFontColor #d4d4d4
+skinparam backgroundColor #282a36
+skinparam DefaultFontColor #f8f8f2
 
 skinparam defaultFontName sans-serif
 skinparam classFontSize 14
 
 skinparam usecase {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
-    ArrowColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
+    ArrowColor #f8f8f2
 }
 
 skinparam note {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
 }
 
 (A) as A
@@ -201,21 +201,21 @@ Para este método o custo esperado (sôfrega) é tido em conta. Aqui expande-se 
 ```plantuml
 @startuml
 skinparam shadowing false
-skinparam backgroundColor #1E1E1E
-skinparam DefaultFontColor #d4d4d4
+skinparam backgroundColor #282a36
+skinparam DefaultFontColor #f8f8f2
 
 skinparam defaultFontName sans-serif
 skinparam classFontSize 14
 
 skinparam usecase {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
-    ArrowColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
+    ArrowColor #f8f8f2
 }
 
 skinparam note {
-    BackgroundColor #1E1E1E
-    BorderColor #d4d4d4
+    BackgroundColor #282a36
+    BorderColor #f8f8f2
 }
 
 (A) as A

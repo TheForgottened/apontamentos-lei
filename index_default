@@ -1,4 +1,20 @@
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-    <meta property="og:description" content="Apontamentos tirados durante a minha licenciatura em Engenharia Informática no ISEC."/>
-    <meta property="og:image" content="favicon.png">
-    <meta property="og:card" content="summary">
+<html lang="pt" prefix="og: https://ogp.me/ns#">
+
+<meta charset="utf-8">
+
+<title>Apontamentos de LEI</title>
+<meta property="og:title" content="Apontamentos de LEI" />
+
+<meta name="description" content="Apontamentos tirados durante a minha licenciatura em Engenharia Informática no ISEC." />
+<meta property="og:description" content="Apontamentos tirados durante a minha licenciatura em Engenharia Informática no ISEC." />
+
+<meta name="author" content="TheForgotten" />
+
+<link rel="image_src" href="favicon.png?" />
+
+<!-- Only works with absolute links, no relative links... -->
+<meta property="og:image" content="https://theforgottened.github.io/apontamentos-lei/favicon.png" />
+
+<meta property="og:type" content="website" />
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png?" />
