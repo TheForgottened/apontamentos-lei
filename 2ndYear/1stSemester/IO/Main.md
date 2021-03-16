@@ -1,8 +1,6 @@
 # Investigação Operacional
 
-**[Resumos](Summary.md) | [Material de Apoio](https://github.com/TheForgottened/investigacao_operacional)**
-
-A repo de material de apoio vai manter-se privada até ao final do semestre.
+**[Resumos](Summary.md) | [Material de Apoio](https://github.com/TheForgottened/licenciatura-engenharia-informatica/tree/IO-20-21)**
 
 ![ISEC Logo](https://moodle.isec.pt/moodle/pluginfile.php/1/theme_adaptable/logo/1581343866/logo.png)
 

@@ -1,8 +1,6 @@
 # Introdução à Inteligência Artificial
 
-**[Resumos](Summary.md) | [Material de Apoio](https://github.com/TheForgottened/introducao_inteligencia_artificial)**
-
-A repo de material de apoio vai manter-se privada até ao final do semestre.
+**[Resumos](Summary.md) | [Material de Apoio](https://github.com/TheForgottened/licenciatura-engenharia-informatica/tree/IIA-20-21)**
 
 ![ISEC Logo](https://moodle.isec.pt/moodle/pluginfile.php/1/theme_adaptable/logo/1581343866/logo.png)
 
